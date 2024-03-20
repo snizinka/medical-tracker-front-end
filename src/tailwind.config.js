@@ -12,6 +12,10 @@ export default {
         'screen-w-1450px': { min: '1450px' },
         'screen-w-1600px': { min: '1600px' },
         'screen-w-1724px': { min: '1724px' },
+        'middle-screen-size': { raw: '(max-height: 900px) and (max-width:1600px)' }
+      },
+      flex: {
+        'expand': '1 0 100%'
       },
       colors: {
         'gray_2d2d2d': '#2d2d2d',

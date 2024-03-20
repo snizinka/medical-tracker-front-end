@@ -15,15 +15,17 @@ import Account from "@/components/Account/Account.vue";
       <div class="-z-10 absolute right-0 top-24">
         <img class="w-full" src="/src/assets/images/side_gradient.png" alt="Side Gradient">
       </div>
-      <div class="screen-w-1600px:!py-[8.6vh] screen-w-1200px:!py-4 screen-min-w-1200px:py-8 screen-w-1350px:py-13 screen-w-1724px:py-16 w-full mx-auto py-5_6rem">
-        <Header class="screen-w-1600px:!mb-[7.8vh] screen-min-w-1200px:mb-14 screen-w-1200px:!mb-12 mb-5_9rem" />
-        <Main />
-        <div class="screen-w-1200px:flex-col-reverse flex justify-between">
-          <div class="screen-w-1200px:flex screen-w-1200px:flex-col">
-            <Actions />
-            <Account />
+      <div class="middle-screen-size:!py-4 py-[8.6vh] w-full mx-auto">
+        <Header class="middle-screen-size:mb-0 mb-[7.8vh]" />
+        <div class="flex flex-col justify-between h-[calc(100vh-(40px)-18.6vh-7.8vh)]">
+          <Main />
+          <div class="screen-w-1200px:flex-col-reverse flex justify-between">
+            <div class="screen-w-1200px:flex screen-w-1200px:flex-col">
+              <Actions />
+              <Account />
+            </div>
+            <Services />
           </div>
-          <Services />
         </div>
       </div>
     </div>

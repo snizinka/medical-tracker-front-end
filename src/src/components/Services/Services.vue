@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <div class="screen-w-1200px:!max-w-80% screen-w-1200px:mb-4 screen-w-1200px:mx-auto screen-w-1600px:!px-6 screen-min-w-1200px:max-w-52% screen-min-w-1200px:px-[1.5rem] screen-w-1600px:max-w-50% border-2 border-gray_2d2d2d px-55px flex items-center max-w-50% w-full">
+  <div class="screen-w-1600px:max-w-[44.58vw] screen-w-1200px:!max-w-80% screen-w-1200px:mb-4 screen-w-1200px:mx-auto screen-w-1600px:!px-6 screen-min-w-1200px:max-w-52% screen-min-w-1200px:px-[1.5rem] screen-w-1600px:max-w-50% border-2 border-gray_2d2d2d px-55px flex items-center max-w-50% w-full">
     <div class="screen-w-1200px:py-3 screen-min-w-1200px:py-2 screen-min-w-1200px:gap-35px flex gap-50px">
       <div class="flex items-center">
         <div class="screen-min-w-1200px:w-[3.438rem] screen-min-w-1200px:h-[3.438rem] screen-w-1724px:mr-4 shrink-0 mr-5 w-67px h-67px rounded-full border-2 border-gray_2d2d2d flex items-center justify-center">
